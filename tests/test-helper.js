@@ -1,6 +1,4 @@
-import {  // eslint-disable-line import/no-extraneous-dependencies
-  setResolver,
-} from 'ember-qunit';
+import { setResolver } from 'ember-qunit'; // eslint-disable-line
 import resolver from './helpers/resolver';
 
 setResolver(resolver);

@@ -1,8 +1,7 @@
 import Ember from 'ember'; // eslint-disable-line
 import loadInitializers from 'ember-load-initializers';
-
 import Resolver from './resolver';
-import config from './config/environment';
+import config from './config/environment'; // eslint-disable-line import/no-unresolved
 
 let App; // eslint-disable-line import/no-mutable-exports
 
