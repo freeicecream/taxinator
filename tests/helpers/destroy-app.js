@@ -1,4 +1,4 @@
-import Ember from 'ember';
+import Ember from 'ember'; // eslint-disable-line
 
 export default function destroyApp(application) {
   Ember.run(application, 'destroy');
