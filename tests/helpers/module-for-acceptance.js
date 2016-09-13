@@ -1,4 +1,4 @@
-import { module } from 'ember-cli-qunit';
+import { module } from 'qunit'; // eslint-disable-line
 import Ember from 'ember'; // eslint-disable-line
 import startApp from '../helpers/start-app';
 import destroyApp from '../helpers/destroy-app';
